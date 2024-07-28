@@ -4,17 +4,20 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "vercel": "vercel dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "fastify": "^4.28.1"
+    "fastify": "^4.28.1",
+    "@vercel/node": "^1.11.1"
   },
   "devDependencies": {
     "@types/node": "^20.14.12",
+    "dotenv": "^10.0.0",
     "typescript": "^5.5.4"
   }
 }
